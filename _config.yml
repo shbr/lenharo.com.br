@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Lenharo Tecnologia da Informação
+email: contato@lenharo.com.br
+description: > # this means to ignore newlines until "baseurl:"
+  Lenharo Tecnologia. Empresa Curitibana voltada para ajudar sua empresa a nas
+  melhores soluções de TIC atuais.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.lenharo.com.br" # the base hostname
+
+# Company Information
+company_name: Lenharo Tecnologia
+address_line: Caixa Postal 15002
+telephone_number: +55 41 9.99933-8394
+company_email: contato@lenharo.com.br
+google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.2232060101333!2d-49.21255778449763!3d-25.49760144181166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dcfa9b288a8b1f%3A0x9bfad36d44d57a13!2sAv.%20Com.%20Franco%2C%208115%20-%20Uberaba%2C%20Curitiba%20-%20PR%2C%2081560-001!5e0!3m2!1spt-BR!2sbr!4v1605633651678!5m2!1spt-BR!2sbr
+
+# Social Link
+twitter_link: http://www.twitter.com
+linkedin_link: http://www.linkedin.com
+googleplus_link: http://plus.google.com
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
